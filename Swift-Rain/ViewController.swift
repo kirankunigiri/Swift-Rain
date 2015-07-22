@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // Properties
+    var mainWaterController = WaterController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        mainWaterController.view = self.view
+        mainWaterController.start()
     }
 
     override func didReceiveMemoryWarning() {
