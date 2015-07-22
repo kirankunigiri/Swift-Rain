@@ -13,6 +13,7 @@
 		9F4A4D971B6035BC00B84486 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4A4D961B6035BC00B84486 /* Images.xcassets */; };
 		9F4A4D9A1B6035BC00B84486 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F4A4D981B6035BC00B84486 /* LaunchScreen.xib */; };
 		9F4A4DA61B6035BC00B84486 /* Swift_RainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A4DA51B6035BC00B84486 /* Swift_RainTests.swift */; };
+		9FCD42E91B60371F0076E49A /* WaterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD42E81B60371F0076E49A /* WaterController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9F4A4D9F1B6035BC00B84486 /* Swift-RainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-RainTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4A4DA41B6035BC00B84486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F4A4DA51B6035BC00B84486 /* Swift_RainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_RainTests.swift; sourceTree = "<group>"; };
+		9FCD42E81B60371F0076E49A /* WaterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				9F4A4D8F1B6035BC00B84486 /* AppDelegate.swift */,
 				9F4A4D911B6035BC00B84486 /* ViewController.swift */,
+				9FCD42E81B60371F0076E49A /* WaterController.swift */,
 				9F4A4D931B6035BC00B84486 /* Main.storyboard */,
 				9F4A4D961B6035BC00B84486 /* Images.xcassets */,
 				9F4A4D981B6035BC00B84486 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				9F4A4D921B6035BC00B84486 /* ViewController.swift in Sources */,
 				9F4A4D901B6035BC00B84486 /* AppDelegate.swift in Sources */,
+				9FCD42E91B60371F0076E49A /* WaterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				9F4A4DAB1B6035BC00B84486 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F4A4DAC1B6035BC00B84486 /* Build configuration list for PBXNativeTarget "Swift-RainTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				9F4A4DAE1B6035BC00B84486 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
