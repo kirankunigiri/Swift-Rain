@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>04F250DE-74E8-4439-8E29-3AC5195FD926</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Swift-Rain</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5261B5E2C3082F3ABAEF6068CF5881CC538FFF8D</key>
+		<string>https://github.com/XenonXYZ/Swift-Rain.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Swift-Rain.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5261B5E2C3082F3ABAEF6068CF5881CC538FFF8D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/XenonXYZ/Swift-Rain.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5261B5E2C3082F3ABAEF6068CF5881CC538FFF8D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5261B5E2C3082F3ABAEF6068CF5881CC538FFF8D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swift-Rain</string>
+		</dict>
+	</array>
+</dict>
+</plist>
