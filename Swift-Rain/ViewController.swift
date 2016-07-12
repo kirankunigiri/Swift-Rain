@@ -10,22 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    // Properties
-    var mainWaterController = WaterController()
+    var waterController: WaterController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        mainWaterController.view = self.view
-        mainWaterController.start()
+        waterController = WaterController(view: self.view)
+        waterController.start()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func startButtonTapped(sender: UIButton) {
+        if waterController.isAnimating {
+            waterController.stop()
+            sender.setTitle("Start", forState: .Normal)
+        } else {
+            waterController.start()
+            sender.setTitle("Stop", forState: .Normal)
+        }
     }
-
 
 }
 

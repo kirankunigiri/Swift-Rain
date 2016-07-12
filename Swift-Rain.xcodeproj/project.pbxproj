@@ -159,6 +159,8 @@
 		9F4A4D821B6035BC00B84486 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Kiran Kunigiri";
 				TargetAttributes = {
