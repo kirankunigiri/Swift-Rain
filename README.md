@@ -7,3 +7,5 @@ waterController.start()
 ```
 
 The rain animation automatically adapts to the size of the view you are using. You can customize properties such as the rain color and frequencies in the WaterController class.
+
+This project is tested with BrowserStack
